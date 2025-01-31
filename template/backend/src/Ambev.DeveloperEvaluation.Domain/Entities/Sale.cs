@@ -1,5 +1,4 @@
-﻿using Ambev.DeveloperEvaluation.Common.Security;
-using Ambev.DeveloperEvaluation.Domain.Common;
+﻿using Ambev.DeveloperEvaluation.Domain.Common;
 using Ambev.DeveloperEvaluation.Domain.Enums;
 
 namespace Ambev.DeveloperEvaluation.Domain.Entities;
@@ -14,7 +13,7 @@ public class Sale : BaseEntity
     /// <summary>
     /// Gets the itens from this sale
     /// </summary>
-    public List<ItemSale> ItensSales { get; set; } = [];
+    public List<ItemSale> ItensSale { get; set; } = [];
 
     /// <summary>
     /// Gets the sales's current status.
